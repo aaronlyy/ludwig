@@ -1,0 +1,33 @@
+{
+  "name": "ludwig",
+  "version": "0.0.1",
+  "description": "Ludwig is a Discord bot that helps you find players for any game on your server",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js",
+    "cmdupdate": "node src/deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronlyy/ludwig.git"
+  },
+  "keywords": [
+    "social",
+    "friends",
+    "multiplayer"
+  ],
+  "author": "Aaron Levi Can (aaronlyy)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aaronlyy/ludwig/issues"
+  },
+  "homepage": "https://github.com/aaronlyy/ludwig#readme",
+  "dependencies": {
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
