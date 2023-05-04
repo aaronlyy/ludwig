@@ -1,0 +1,2 @@
+// subscribe for a game
+const { SlashCommandBuilder } = require('discord.js');

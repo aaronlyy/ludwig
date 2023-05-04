@@ -1,0 +1,2 @@
+// unsubscribe from a game
+const { SlashCommandBuilder } = require('discord.js');
